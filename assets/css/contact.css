@@ -1,0 +1,50 @@
+/*    header          */
+
+
+header{
+    background-image: url(../img/header1.jpg);
+    top: center;
+    left: center;
+    background-size: cover;
+}
+
+
+/* Main section */
+
+
+.venir{
+    text-align: justify;
+}
+
+
+/* Formulaire */
+
+
+.error{
+    border-color: red;
+}
+
+.form-control:focus {
+    border-color: #6d4c41 !important;
+    box-shadow: 0 0 5px rgb(37, 37, 37) !important;
+  }
+
+
+/* scroll */
+
+
+[class*="reveal-"]
+{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.reveal-visible{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1s cubic-bezier(.5, 0, 0, 1)
+}
+
+.reveal-2 {
+    transition-delay: .1s;
+}

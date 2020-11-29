@@ -1,0 +1,63 @@
+/*    header          */
+
+
+header{
+    background-image: url(../img/header1.jpg);
+    top: center;
+    left: center;
+    background-size: cover;
+}
+
+
+/*     Menu     */
+
+
+.nav-carte{
+    margin: 50px;
+}
+
+.food-section{
+    margin: 50px 0;
+}
+
+.titre-carte{
+    margin-bottom: 20px !important;
+}
+
+.nourriture, .composition, .tarif{
+    font-family: "marck script";
+    font-size: 1.1rem;
+}
+.nourriture, .tarif{
+    margin: 0;
+    font-weight: bold;
+}
+
+.composition{
+    margin-bottom: 10px !important;
+}
+
+.tarif{
+    font-size: 1.5rem;
+    color: green;
+}
+
+
+/* scroll */
+
+
+[class*="reveal-"]
+{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.reveal-visible{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1s cubic-bezier(.5, 0, 0, 1)
+}
+
+.reveal-2 {
+    transition-delay: .1s;
+}

@@ -1,0 +1,86 @@
+
+/*       Navbar        */
+
+.navbar{
+    position: absolute;
+}
+
+.backgroundSlide {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.image-slide {
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero {height: 100vh;}     */
+
+/*         section 1      */
+
+.zone1 h2 {
+    font-family: "marck script";
+    margin-bottom: 10px;
+}
+
+.imgzone1 {
+    width: inherit;
+    height: auto;
+    object-fit: scale-down;
+}
+
+
+/*       Section 2         */
+
+
+.title-zone2 {
+    font-size: 60px; 
+    margin-bottom: 30px;
+    font-family: "marck script"
+}
+
+.title-zone2 h3{
+    color: white;
+}
+
+
+/*         section 3         */
+
+
+.title-zone3 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: "marck script";
+}
+
+.schedules-item{
+    min-height: 20vh;
+    border-radius: 10px;
+    box-shadow: 0 0 18px 0 #0000002c;
+    transition: 0.3s ease box-shadow;
+}
+
+.schedules-item:hover {box-shadow: 0 0 5px 0 #0000002c;}
+
+
+/* scroll */
+
+
+[class*="reveal-"]
+{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.reveal-visible{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1s cubic-bezier(.5, 0, 0, 1)
+}
+
+.reveal-2 {
+    transition-delay: .1s;
+}

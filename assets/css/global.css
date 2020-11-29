@@ -1,0 +1,81 @@
+/*        Global       */
+
+
+.container-fluid, .row {
+    padding:0 !important;
+    margin: 0 !important;
+}
+
+.container {
+    margin: 50px auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: "marck script";
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+    font-family: "marck script";
+    color: #6d4c41;
+}
+
+p, b {
+    font-family: 'Mukta', sans-serif;
+}
+
+.btn {
+    padding: 5px;
+}
+
+.c-button {
+    background-color: #388e3c;
+}
+
+.c-button:hover {
+    background-color: #00600f;
+}
+
+
+/*      Navbar         */
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-brand {
+    font-family: "marck script";
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navbar-toggler {
+    border: 2px solid white;
+}
+
+.togglerText {
+    color: white;
+}
+
+
+/*      Footer         */
+
+
+footer {
+    min-height: 20vh;
+    width: 100%;
+    background-color: #6d4c41;
+    color: white;
+}
+
+.color-social{color: white;}
