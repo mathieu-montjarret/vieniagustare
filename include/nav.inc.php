@@ -7,7 +7,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav justify-content-around font-weight-bold">
                         <li class="nav-item d-flex align-items-center">
-                            <a class="nav-link text-light" href="index.php">ACCUEIL</a>
+                            <a class="nav-link text-light" href="accueil.php">ACCUEIL</a>
                         </li>
                         <li class="nav-item d-flex align-items-center">
                             <a class="nav-link text-light" href="menu.php">LA CARTE</a>
